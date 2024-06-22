@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap);
+@import url(mobile.css);
+@import url(destop.css);
+
+*{box-sizing: border-box;}
+:root {
+    --main-color:#5A5FD1;
+    --sub-color:#F1F1F1;
+    --black-color:#000;
+    --dark-color:#737373;
+    --light-color:#F5F5F5;
+    --white-color:#fff;
+    --main-font:'Roboto Slab', serif;
+    --sub-font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+* {box-sizing: border-box;}
+
+body, h1, h2, h3, p {
+    margin: 0; padding: 0;
+}
+body {
+    color: #989898;
+    font-family:var(--main-font) ;
+    background-color: var(--light-color);
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Project zero</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="wrap">
+    <header>
+        <h1><a href="index.htm" title="Urban Project Zero Home">Urban Project zero</a></h1>
+       
+        <nav>
+            <button class="nav-button"><img src="image/img_menu.svg" alt=""></button>
+            <ul class="nav-menu">
+                <li><a href="#" title="About Us">About</a></li>
+                <li><a href="#" title="Major Events">Events</a></li>
+                <li><a href="#" title="Our Projects">Projects</a></li>
+                <li><a href="#" title="Our Partners">Partners</a></li>
+            </ul>
+        </nav>
+       </header>
+    <section>
+        
+    <main>
+        <h1>Urban Project zero</h1>
+        <p>Fictional Urban Construction Prototype for midterm assessment</p>
+    </main>
+    <aside>
+        <div class="card">
+            <div class="card__intro">
+                <h3>One of the most unique urban project ever</h3>
+                <p>Buildings are made of cement. It's not painted, either, so it blends in well with the surrounding.</p>
+            </div>
+            <picture class="card__image">
+                <source media="(max-width: 727px)" srcset="image/img_card01m.png">
+                <source media="(min-width: 728px)" srcset="image/img_card01.png">
+                <img src="image/img_card01.png" alt="One of the most unique urban project ever">
+            </picture>
+        </div>
+        <div class="card">
+            
+            <div class="card__intro">
+                <h3>A leading construction company</h3>
+                <p>For industrial companies, the places where their work are their most important assets.</p>
+            </div>
+            <picture class="card__image">
+                <source media="(max-width: 727px)" srcset="image/img_card02m.png">
+                <source media="(min-width: 728px)" srcset="image/img_card02.png">
+                <img src="image/img_card02.png" alt="A leading construction company">
+            </picture>
+        </div>
+        <div class="card">
+            <div class="card__intro">
+                <h3>Nationwide network of distribution</h3>
+                <p>These structures need to house and protect important equipment, raw materials and workers.</p>
+            </div>
+            <picture class="card__image">
+                <source media="(max-width: 727px)" srcset="image/img_card03m.png">
+                <source media="(min-width: 728px)" srcset="image/img_card03.png">
+                <img src="image/img_card03.png" alt="Nationwide network of distribution">
+            </picture>
+        </div>
+    </aside>
+    </section>
+    <footer>
+        <p>Copyright &copy; 2023 Urban Project Zero Limited. All Rights Reserved</p>
+    </footer>
+</div>
+<script>
+    let myNav = document.querySelector(".nav-menu"); //在 JS 裡定義下拉選單
+    let myButton = document.querySelector(".nav-button");// 在 JS 裡定義漢堡按鈕
+    myButton.addEventListener("click", function() { //在 myButton 上安裝事件監聽器，監聽有無被點選的動作
+    myNav.classList.toggle("hide"); //如果有被點選，就在 myNav 的 class 清單中，開關 hide 這個 class
+    });
+</script> 
+</body>
+</html>

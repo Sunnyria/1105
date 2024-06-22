@@ -1,0 +1,167 @@
+@media screen and (max-width:727px) {
+    .img{width: 100px;}
+    .wrap {
+        width: 100%;
+        margin: 0px auto ;
+        padding: 10px 20px;
+        padding-left: 18px;
+        padding-bottom: 0;
+        display: flow-root;
+        background-color: white;
+    }
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 17px;
+    }
+    header h1 {
+        width: 185px; height: 40px;
+        text-indent: -999px;
+        overflow: hidden;
+        margin-left: 0px;
+    }
+    
+    header button.nav-button{
+        position: absolute;
+        top: 20px;
+        right: 15px;
+        background: white;
+        cursor: pointer;
+        border: 0;
+    }
+    header h1  a {
+        display: block;
+        width: 185px; height: 40px;
+        background-image: url(image/img_logo.svg);
+    }
+    header ul {
+        margin: 0; padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        display: none;
+        gap: 10px;
+    }
+    header ul a {
+        color: var(--dark-color);
+        font-weight: 700;
+        text-decoration: none;
+        line-height: 46px;
+        text-align: center;
+        display: block;
+        width: 350px; height: 46px;
+        border-left: 4px solid var(--white-color);
+        transition: all 0.2s;
+    }
+    header ul a:hover {
+        color: var(--black-color);
+        background-color: var(--sub-color);
+        border-left: 4px solid var(--main-color);
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0px auto;
+        
+    }
+    main {
+        width: 100%;
+        height: 580px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        background-image: url(image/img_main_potrait.jpg);
+        background-position-x: -80px;
+        background-position-y: -70px;
+        overflow: hidden;
+        padding-top: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    main h1 {
+        color: var(--main-color);
+        font-size: 70px;
+        font-weight: 600;
+        line-height: 68px;
+        text-align: right;
+        padding-left: 6px;
+        text-indent: 0px;
+    }
+    main p {
+        color: var(--sub-color);
+        left: 28px;
+        font-weight: 700;
+        font-size: 14px;
+        height: 300px;
+        line-height: 27px;
+        margin-top: 250px;
+        }
+
+    aside {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+        margin: 20px auto;
+    }
+    div.card {
+        height: 300px;
+        width: 354px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--sub-color);
+    }
+    .hide {
+        display: flex;
+    }
+    .card__intro {
+        width: 400px;
+        height: 400px;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+    .card__intro h3 {
+        color: var(--main-color);
+        font-size: 24px;
+        line-height: 35px;
+        padding-left: 15px;
+        padding-right: 60px;
+        
+    }
+    .card__intro p {
+        width: 100%;
+        height: 65px;
+        font-size: 14px;
+        line-height: 22px;
+        font-family:var(--sub-font);
+        margin-top: 13px;
+        margin-bottom: 15px;
+        padding-left: 16px;
+        padding-right: 80px;
+        
+    }
+    .card__image {
+        width: 100%
+    }
+    
+    footer {
+        clear: both;
+        text-align: center;
+    }
+    footer p {
+        font-size: 18px;
+        line-height: 60px;
+        line-height:170% ;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+}

@@ -1,0 +1,122 @@
+@media screen and (min-width:728px) {
+    .wrap {
+        width: 940px;
+        margin: 20px auto;
+        padding: 20px;
+        padding-bottom: 0;
+        display: flow-root;
+        background-color: white;
+    }
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 17px;
+    }
+    header h1 {
+        width: 185px; height: 40px;
+        text-indent: -999px;
+        overflow: hidden;
+        margin-left: 10px;
+    }
+    header h1  a {
+        display: block;
+        width: 185px; height: 40px;
+        background-image: url(image/img_logo.svg);
+    }
+    header button.nav-button{display: none;}
+
+    header ul {
+        margin: 0; padding: 0;
+        list-style: none;
+        display: flex;
+    }
+    header ul a {
+        color: var(--dark-color);
+        font-weight: 700;
+        text-align: center;
+        text-decoration: none;
+        line-height: 40px;
+        display: block;
+        width: 120px; height: 40px;
+        border-left: 4px solid var(--white-color);
+        transition: all 0.2s;
+    }
+    header ul a:hover {
+        color: var(--black-color);
+        background-color: var(--sub-color);
+        border-left: 4px solid var(--main-color);
+    }
+    section {
+        display: flex;
+        justify-content: space-between;
+    }
+    main {
+        width: 480px;
+        height: 760px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        background-image: url(image/img_main.jpg);
+        overflow: hidden;
+        padding-top: 60px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    main h1 {
+        color: var(--main-color);
+        font-size: 95px;
+        line-height: 95px;
+        text-align: right;
+    }
+    main p {
+        color: var(--sub-color);
+        font-size: 16px;
+        line-height: 27px;
+        margin-top: 330px;
+        width: 75%;
+    }
+    aside {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    div.card {
+        height: 240px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        overflow: hidden;
+        display: flex;
+        background-color: var(--sub-color);
+    }
+    
+    .card__intro {
+        width: 230px;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    .card__intro h3 {
+        color: var(--main-color);
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .card__intro p {
+        font-size: 15px;
+        line-height: 24px;
+        font-family:var(--sub-font);
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    .card__image {
+        width: 170px;
+    }
+    
+    footer {
+        clear: both;
+        text-align: center;
+    }
+    footer p {
+        font-size: 14px;
+        line-height: 60px;
+    }
+}
